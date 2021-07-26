@@ -1,0 +1,37 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.search label, .car label {
+  margin: 1em;
+}
+
+.search .dropdown {
+  margin: 5px;
+}
+
+.search .car-type {
+  width: 100%;
+  display: flex;
+}
+
+.search .car-options {
+  width: 100%;
+  margin: 10px;
+}
+
+.car.selected .card {
+  background: lightgreen;
+  opacity: 0.7;
+}
